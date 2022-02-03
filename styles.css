@@ -1,0 +1,48 @@
+.header {
+    background-color: #1f2937;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    float: left;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    color: #E5E7EB;
+    font-size: 18px;
+    
+}
+
+li {
+    padding: 16px;
+    list-style-type: none;
+}
+
+.top-left {
+    display: flex;
+    margin: 30px;
+    padding: 80px 50px 50px 0px;
+}
+
+.main-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.msg-top {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+
