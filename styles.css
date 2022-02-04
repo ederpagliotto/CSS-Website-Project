@@ -3,14 +3,14 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    text-align: center;
 }
 
 .logo {
     width: 60px;
     height: auto;
     float: left;
+    padding: 10px 0px 0px 10px;
 }
 
 .links {
@@ -27,10 +27,18 @@ li {
     list-style-type: none;
 }
 
-.top-left {
+.top {
     display: flex;
-    margin: 30px;
-    padding: 80px 50px 50px 0px;
+    padding-top: 100px;
+}
+
+.top-text,
+.top-image {
+    padding: 20px;
+}
+
+.top-image {
+    padding-left: 70px;
 }
 
 .main-title {
@@ -39,10 +47,25 @@ li {
     font-weight: 800;
 }
 
-.msg-top {
+p {
     font-size: 18px;
     color: #E5E7EB;
 }
 
 
+button {
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    border-radius: 5px;
+    border-color: #3882F6;
+    justify-content: center;
+    
+}
 
+.phrase {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
